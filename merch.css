@@ -1,0 +1,53 @@
+.card
+{
+    margin: 15px;
+ padding: 9px;
+
+    width: 11rem;
+}
+.card-body
+{
+    padding-bottom: 10px;
+  
+}
+
+
+.row
+{
+    margin-top: 15px;
+}
+.heading
+{
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+body{
+    background: linear-gradient(180deg, rgba(101,156,241,1) 0%, rgba(20,83,180,1) 50%);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+margin: 0;
+}
+.navbar
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
+}
+
+.nav-link
+{
+    color: white;
+}
+.card-text
+{
+    color: rgb(5, 26, 58) ;
+}
+.card-text:hover
+{
+    text-decoration: none;
+    color: rgb(28, 63, 115);
+}

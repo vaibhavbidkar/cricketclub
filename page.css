@@ -1,0 +1,35 @@
+.prodimg
+{
+    height: 10rem;
+    width: 10rem;
+    padding: 20px;
+    float: left;
+}
+body{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+
+}
+.navbar
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
+}
+
+.nav-link
+{
+    color: white;
+}
+.card
+{
+    margin: 60px 70px 60px 70px;
+    padding: 10px;
+}
+
+.card-body
+{
+    float: right;
+    max-width: fit-content;
+}
