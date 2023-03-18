@@ -1,9 +1,10 @@
 body {
-    background-image: url("images/home.jpg");
+  background-image: url("images/home.png");
   background-size: cover;
   margin: 0;
   
   }
+
   .navMenu {
     font-family: 'Source Sans Pro', sans-serif;
     background: linear-gradient(360deg, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
@@ -51,4 +52,6 @@ body {
   margin-top: 80px;
   padding: 10px;
  }
-  
+
+ 
+
