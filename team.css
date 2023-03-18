@@ -10,19 +10,26 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-top: 10px;
+
+ 
 }
 
 .navMenu a {
   color: silver;
   text-decoration-color: silver;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
-  width: 140px;
+ margin-left: 20px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+
+
 }
 
 .navMenu a:hover {
@@ -111,5 +118,16 @@ margin: 0;
   .cups{
       width:100px;
       text-align: center;
+
   }
- 
+ .navbar-brand
+ {
+float: left;
+margin-top: 40px;
+padding: 10px;
+ }
+ .container
+ {
+  margin-top: 80px;
+  padding: 10px;
+ }
