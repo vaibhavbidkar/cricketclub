@@ -1,18 +1,7 @@
-.navbar
-{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
-    background: rgb(255,255,255);
-    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
-}
 
-.nav-link
-{
-    color: white;
-}
 body {
 	 background: linear-gradient(180deg, rgba(101,156,241,1) 0%, rgba(20,83,180,1) 50%);
-    background: rgb(255,255,255);
+   
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
 margin: 0;
 }
@@ -83,19 +72,6 @@ background: linear-gradient(to right, rgb(236, 236, 3), goldenrod);
 	margin-top: 5px;
 }
 
-
-/* a {
-	text-decoration: none;
-	display: inline-block;
-	color: goldenrod;
-	padding: 8px 16px;
-  }
-  
-  a:hover {
-	background-color: #0d0554;
-	color: goldenrod;
-  } */
-
   .list li button {
 	background: transparent;
 	border: 1px solid #b7b7b7;
@@ -134,3 +110,50 @@ background: linear-gradient(to right, rgb(236, 236, 3), goldenrod);
 	left: 0;
 	opacity: 1;
 }
+
+  .navMenu {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(360deg, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
+font-size: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 10px;
+ 
+   
+  }
+  
+  .navMenu a {
+    color: rgb(212, 211, 211);
+    text-decoration-color: silver;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+   margin-left: 20px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  
+  letter-spacing: 1.5px;
+  }
+  
+  .navMenu a:hover {
+    color: goldenrod;
+  }
+  .navbar-brand
+ {
+  float: left;
+  margin-top: 40px;
+  padding: 10px;
+ }
+ .container
+ {
+  margin-top: 80px;
+  padding: 10px;
+ }
+  

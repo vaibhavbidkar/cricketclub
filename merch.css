@@ -1,6 +1,6 @@
 .card
 {
-    margin: 15px;
+    margin: 10px;
  padding: 9px;
 
     width: 11rem;
@@ -20,8 +20,8 @@
 {
     text-align: center;
     position: relative;
-    margin-top: 40px;
-    margin-bottom: 30px;
+   
+    margin-bottom: 40px;
 
 }
 body{
@@ -30,18 +30,7 @@ body{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
 margin: 0;
 }
-.navbar
-{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
-    background: rgb(255,255,255);
-    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
-}
 
-.nav-link
-{
-    color: white;
-}
 .card-text
 {
     color: rgb(5, 26, 58) ;
@@ -51,3 +40,51 @@ margin: 0;
     text-decoration: none;
     color: rgb(28, 63, 115);
 }
+
+  .navMenu {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(360deg,rgba(3,23,53,1) 0%, rgba(3,23,53,1) 44%, rgba(1,9,21,1) 78%);
+font-size: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 10px;
+ 
+    letter-spacing: 1.5px;
+   
+  }
+  
+  .navMenu a {
+    color: silver;
+    text-decoration-color: silver;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+   margin-left: 20px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  
+  
+  }
+  
+  .navMenu a:hover {
+    color: goldenrod;
+  }
+  .mynavbar-brand
+ {
+  float: left;
+  margin-top: 40px;
+  padding: 10px;
+ }
+ .mycontainer
+ {
+  margin-top: 80px;
+  padding: 10px;
+ }
+  
