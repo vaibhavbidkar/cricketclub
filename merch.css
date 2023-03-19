@@ -20,9 +20,6 @@
 {
     text-align: center;
     position: relative;
-   
-    margin-bottom: 40px;
-
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -93,10 +90,11 @@ font-size: 25px;
  
  .footer-basic {
   margin: 0;
-    background-color: rgb(5, 26, 58) ;
+ 
     color:white;
-    padding: 20px;
+  padding: 8px;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
     background: linear-gradient(360deg, rgb(11, 42, 87) 0%, rgb(3, 21, 47) 70%);
 
   }
@@ -105,13 +103,15 @@ font-size: 25px;
     padding:0;
     list-style:none;
     text-align:center;
-    font-size:18px;
-    line-height:1.6;
+    font-size:20px;
+ padding-top: 10px;
     margin-bottom:0;
   }
   
   .footer-basic li {
-    padding:0 10px;
+    display: inline;
+margin-left: 20px;
+
   }
   
   .footer-basic ul a {
@@ -123,34 +123,109 @@ font-size: 25px;
   .footer-basic ul a:hover {
     opacity:1.2;
   }
-  
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  .footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
+ 
   
   .footer-basic .copyright {
-    margin-top:15px;
+ 
     text-align:center;
     font-size:13px;
     color:#f9f6f6;
-    margin-bottom:5px;
+  margin-bottom: 20px;
   }
+
+
+  .list {
+    padding: 0;
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+    float : left;
+    
+  }
+  .list li {
+    display: inline-block;
+    width: 20%;
+    min-width: 200px;
+    max-width: 230px;
+    padding: 80px 20px 40px;
+    position: relative;
+    vertical-align: top;
+    margin: 10px;
+    font-family: 'helvetica', san-serif;
+    min-height: 25vh;
+    background: white;
+    /* border: 1px solid #252527; */
+    text-align: left;
+    border-radius: 8px;
+  }
+  
+  
+  .list li:hover h2 {
+    top: 0px;
+    opacity: 0.9;
+  }
+  .list li h2 {
+    font-size: 114px;
+    margin: 0;
+      color: black;
+    position: absolute;
+    opacity: 0.2;
+    top: 50px;
+    right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .list li h3 {
+    font-size: 20px;  
+    color:black;
+    margin-bottom: 5px;
+  }
+  .list li p {
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+    margin-top: 5px;
+  }
+  
+    .list li button {
+    background: transparent;
+    border: 1px solid #b7b7b7;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-40px);
+    opacity: 0;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .list li button:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 120%;
+    background:darkblue;
+    top: 0;
+    opacity: 0;
+    left: -140px;
+    border-radius: 0 20px 20px 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .list li:hover button {
+    transform: translateY(5px);
+    opacity: 1;
+  }
+  .list li button:hover {
+    color: goldenrod;
+  }
+  .list li button:hover:before {
+    left: 0;
+    opacity: 1;
+  }
+  
+  .divlist{
+    text-align: center;
+  }
+
