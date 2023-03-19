@@ -73,11 +73,7 @@ body {
   text-align: center;
 }
 
-.about-section :hover{
-  background: darkblue;
-  border-radius: 10px;
-  color: white;
-}
+
 
 .vh{
   text-align: center;
