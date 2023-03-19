@@ -4,6 +4,7 @@ body{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
 margin: 0;
 font-family: 'Poppins', sans-serif;
+background-repeat: no-repeat;
 
 }
 
@@ -29,6 +30,7 @@ td,th{
     padding: 10px;
     font-style: bolder;
     background-color: rgb(191, 236, 250);
+    
    
 }
 .card {
