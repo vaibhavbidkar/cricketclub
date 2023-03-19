@@ -63,7 +63,7 @@ body {
   opacity: 0.8;
   background: linear-gradient(180deg, rgba(101,156,241,1) 0%, white 50%);
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%,darkgreen 0%, white 44%, orange 87%);
+    background: linear-gradient(360deg, rgba(255,255,255,1) 0%,darkgreen 0%, white 44%, orange 87%);
   color: black;
   border-radius: 10px;
 

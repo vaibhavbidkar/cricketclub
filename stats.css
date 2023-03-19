@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;
 .mine
 {
     margin: auto;
-    margin-top: 30px;
+ 
     border-radius: 0;
 
 }
@@ -23,9 +23,9 @@ td,th{
 
 .card-title
 {
-    
+  
     text-align: center;
-   
+
     padding: 10px;
     font-style: bolder;
     background-color: rgb(191, 236, 250);
@@ -38,10 +38,10 @@ td,th{
     transition: 0.3s;
     position: relative;
     background-color: white;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
 
+    border-radius: 8px;
+margin: auto;
+padding: 2px;
 
   }
   .card-body
@@ -144,4 +144,10 @@ font-size: 25px;
       font-size:13px;
       color:#f9f6f6;
     margin-bottom: 20px;
+    }
+    .row
+    {
+      display: flex;
+      margin: 30px;
+      text-align: center;
     }
