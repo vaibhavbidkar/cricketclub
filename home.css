@@ -75,10 +75,14 @@ body {
 
 .about-section :hover{
   background: darkblue;
+  border-radius: 10px;
   color: white;
 }
 
 .vh{
   text-align: center;
   color: goldenrod;
+}
+iframe{
+  margin: 8px;
 }
