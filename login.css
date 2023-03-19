@@ -94,3 +94,15 @@ text-align: center;
   background-color: #1652ae;
 
 }
+.label1 {
+  float: left;
+  margin-left: 9px;
+  
+  }
+
+  select{
+    text-align: center;
+    font-size: small;
+   margin-left: 15px;
+   border-radius: 5px;
+  }
