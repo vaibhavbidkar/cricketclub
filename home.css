@@ -21,7 +21,7 @@ body {
     margin-top: 10px;
  
     letter-spacing: 1.5px;
-   
+   z-index: 4;
   }
   
   .navMenu a {
@@ -127,6 +127,14 @@ margin-left: 20px;
     color:#f9f6f6;
   margin-bottom: 20px;
   }
-
-
+.mainimg img
+{
+ height: 100%;
+ width: 100%;
+margin-top: -100px;
+z-index: 2;
+}
+.mainimg{
+  margin-bottom: 30px;
+}
   
