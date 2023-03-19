@@ -1,15 +1,18 @@
 
 body {
-  background: #272727;
+ 
   font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
 }
 
 
 h2{
+ 
+  
  text-align: center;
  color:goldenrod;
  font-weight: bold;
+ 
 
 }
 
@@ -22,7 +25,10 @@ h2{
 }
 
 p{
-    text-align : justify;color:rgb(222, 216, 216);padding: 45px; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px;
+    text-align : justify;color:rgb(222, 216, 216);
+    padding: 45px; 
+  
+     font-size: 20px; line-height: 38px; margin: 0 0 24px;
 }
 
 h3{
