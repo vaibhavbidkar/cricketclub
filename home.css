@@ -1,7 +1,8 @@
 body {
-  background-image: url("images/home.png");
-  background-size: cover;
-  margin: 0;
+    background: linear-gradient(180deg, rgba(101,156,241,1) 0%, rgba(20,83,180,1) 50%);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,13,18,1) 0%, rgba(14,44,89,1) 44%, rgba(33,70,126,1) 87%);
+    margin: 0;
   
   }
 
@@ -53,5 +54,31 @@ body {
   padding: 10px;
  }
 
- 
+ .about-section {
+  margin-left: 400px;
+  margin-bottom: 50px;
+  margin-right: 400px;
+  padding: 50px;
+  text-align: center;
+  opacity: 0.8;
+  background: linear-gradient(180deg, rgba(101,156,241,1) 0%, white 50%);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%,darkgreen 0%, white 44%, orange 87%);
+  color: black;
+  border-radius: 10px;
 
+}
+
+.vid{
+  text-align: center;
+}
+
+.about-section :hover{
+  background: darkblue;
+  color: white;
+}
+
+.vh{
+  text-align: center;
+  color: goldenrod;
+}
