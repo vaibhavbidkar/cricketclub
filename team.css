@@ -3,12 +3,13 @@ body {
  
   font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 
 h2{
  
-  
+
  text-align: center;
  color:goldenrod;
  font-weight: bold;

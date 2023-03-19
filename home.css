@@ -5,6 +5,8 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+  
   }
 
   .navMenu {
@@ -72,6 +74,7 @@ body {
 
 .vid{
   text-align: center;
+  
 }
 
 
@@ -134,6 +137,7 @@ margin-left: 20px;
  width: 100%;
 margin-top: -100px;
 z-index: 2;
+
 }
 .mainimg{
   margin-bottom: 30px;
