@@ -61,13 +61,14 @@ body {
 
   margin-bottom: 50px;
   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   opacity: 0.8;
   background: linear-gradient(180deg, rgba(101,156,241,1) 0%, white 50%);
     background: rgb(255,255,255);
     background: linear-gradient(360deg, rgba(255,255,255,1) 0%,darkgreen 0%, white 44%, orange 87%);
-  color: black;
+  
+    color: black;
   border-radius: 10px;
   margin: 80px;
 
