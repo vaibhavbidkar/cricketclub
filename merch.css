@@ -2,7 +2,7 @@
 {
     margin: 10px;
  padding: 9px;
-
+ box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
     width: 11rem;
 }
 .card-body
@@ -240,4 +240,13 @@ button
   font-size: 15px;
   font-weight:bold ;
   
+}
+.products p:hover
+{
+  color: rgb(19, 76, 161);
+}
+.products p{
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
