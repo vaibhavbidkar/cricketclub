@@ -87,7 +87,10 @@ font-size: 25px;
   padding: 10px;
  }
  
-
+.merchcard:hover
+{
+background-color:  rgb(210, 226, 249);
+}
  .list {
   padding: 0;
   margin: 50px auto;
