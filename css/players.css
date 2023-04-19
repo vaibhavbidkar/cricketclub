@@ -203,3 +203,26 @@ font-size: 25px;
     margin-bottom: 20px;
     }
  
+    .input-search{
+      height: 30px;
+      width: 70%;
+      border-style: none;
+      
+      padding: 10px;
+      font-size: 18px;
+      letter-spacing: 2px;
+      outline: none;
+      border-radius: 25px;
+      transition: all .5s ease-in-out;
+      background-color: rgba(33,70,126,1);
+      padding-right: 40px;
+      color:goldenrod;
+    }
+    .input-search::placeholder{
+      color:goldenrod;
+    
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: 100;
+    }
+
