@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Document</title>
+   <script src="/js/stats.js" defer></script>
+<title>Document</title>
 </head>
 <body>
     <nav class="navMenu">
@@ -28,106 +29,71 @@
   
         </div>
       </div>
-      <div class="row">
-        <div class="card" style="width: 18rem;">
-            <h5 class="card-title">Career Batting Stats</h5>
-            <div class="card-body">
-                <table>
-                    <thead>
-                        <th>Format</th>
-                        <th>Runs</th>
-                        <th>Avg</th>
-                    </thead>
-                    <tr>
-                        <td>Test</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>ODI</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>T20</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>IPL</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                </table>
+
+      <!-- <form>
+        No of Matches : <input type="text" id="matches"/><br>
+        Total Runs : <input type="text" id="runs" /><br>
+        Total Not Outs : <input type="text" id="no" /><br>
+        Balls faced : <input type="text" id="bf" /><br>
+        <input type="button" onClick="avg()" Value="avg" />
+        <input type="button" onClick="sr()" Value="sr" />
+        </form>
+        <p>avg is <br>
+        <span id = "avg"></span>
+        </p>
+        <p>strike rate is<br>
+            <span id = "sr"></span>
+            </p> -->
+
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <h5 class="card-title">Career Batting Stats</h5>
+                    <div class="card-body">                                    
+                            <p>Batting Average :
+                            <span id = "avg"></span>
+                            </p> 
+                            <p>Batting Strike Rate :
+                                <span id = "sr"></span>
+                                </p>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <h5 class="card-title">Input</h5>
+                    <div class="card-body">
+                        <form>
+                            No of Matches : <input type="text" id="matches"/><br>
+
+                            Total Runs : <input type="text" id="runs" /><br>
+                            Total Not Outs : <input type="text" id="no" /><br>
+                            Balls faced : <input type="text" id="bf" /><br>
+
+                            Balls bowled : <input type="text" id="bb" /><br>
+                            Runs given : <input type="text" id="rg" /><br>
+                            Total Wickets : <input type="text" id="wk" /><br>
+                            <input type="button" onClick="avg()" onclic Value="Batting Average" />
+                            <input type="button" onClick="sr()" Value="Strike Rate" />
+                            <input type="button" onClick="sr1()" Value="Bowling Average" />
+                            <input type="button" onClick="eco()" Value="Economy" />
+                            
+
+                            </form>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <h5 class="card-title">Career Bowling Stats</h5>
+                    <div class="card-body">
+                            <p>Economy :
+                            <span id = "eco"></span>
+                            </p>
+                            <p>Bowling strike rate:
+                                <span id = "sr1"></span>
+                                </p>
+                    </div>
+                  </div>
+
             </div>
-          </div>
-          
-          <div class="card" style="width: 18rem;">
-            <h5 class="card-title">Career Bowling Stats</h5>
-            <div class="card-body">
-                <table>
-                    <thead>
-                        <th>Format</th>
-                        <th>Runs</th>
-                        <th>Avg</th>
-                    </thead>
-                    <tr>
-                        <td>Test</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>ODI</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>T20</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>IPL</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                </table>
-            </div>
-          </div>
-          
-          <div class="card" style="width: 18rem;">
-            <h5 class="card-title">Career Fielding Stats</h5>
-            <div class="card-body">
-                <table>
-                    <thead>
-                        <th>Format</th>
-                        <th>Runs</th>
-                        <th>Avg</th>
-                    </thead>
-                    <tr>
-                        <td>Test</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>ODI</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>T20</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                    <tr>
-                        <td>IPL</td>
-                        <td>8202</td>
-                        <td>78.2</td>
-                    </tr>
-                </table>
-            </div>
-          </div>
-      </div>
       <div class="footer-basic">
         <footer>
             <!-- <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div> -->
