@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/slideshow.js"defer></script>
     <title>home</title>
 </head>
 <body >
@@ -22,9 +23,39 @@
           </div>
        
         </nav>
-        <div class="mainimg">
-          <img src="/images/home.jpg" alt="" srcset="" class="img">
-        </div>
+
+       
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="/images/home.jpg" style="width:100%">
+    <div class="text">World Cup 2011</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="/images/carousal1.webp" style="width:100%">
+    <div class="text">Modern Team INDIA</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/images/carousal2.jpg" style="width:100%">
+    <div class="text">BCCI</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
         <div class="about-card">
         <div class="about-section">
           <h1>About Website</h1>
@@ -32,6 +63,10 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse maiores quasi unde recusandae illo, dolore repellat autem dicta veritatis tenetur minus, impedit optio itaque nisi ea delectus iusto quia saepe.</p>
         </div>
        
+
+
+
+        
         <div class="about-section">
           <h1>About Us</h1>
           <p>This website is created by srujana prabhu and vaibhav bidkar</p>
