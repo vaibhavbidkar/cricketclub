@@ -9,7 +9,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
     <title>home</title>
+
 </head>
+<script  >
+  $(document).ready(function(){
+  
+  $(".animation").mouseover(function(){
+     $(this).animate({ height:'200px',width:'200px',left : '-11px'}) });
+  
+  $(".animation").mouseout(function(){
+     $(this).animate({ height:'178px',width:'178px', left : '0px' })});
+  
+  });
+  </script>
 <body >
     <nav class="navMenu">
         <img  src="images/logo.png" class="navbar-brand" style="height: 100px;" alt="" srcset="">
@@ -25,6 +37,12 @@
         <div class="mainimg">
           <img src="images/home.jpg" alt="" srcset="" class="img">
         </div>
+
+        <div class="animation">
+          <img class="dhoni" src="dhoni.png" alt="" srcset="">
+          
+        </div>
+
         <div class="about-card">
         <div class="about-section">
           <h1>About Website</h1>
