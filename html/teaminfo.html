@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <link rel="stylesheet" href="/css/team.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <title>Team Info</title>
+    <script>
+      $(document).ready(function(){
+  
+  // $("#dhoni").click(function(){
+   
+  // $('.ball').animate({left: '80%',width:'150px'},1500)
+  // $('#dhoni').animate({left:'50px',width},2000)
+  
+  // });
+  function loop()
+  {
+    $('.ball').animate({left: '80%',width:'140px'},2500,loop);
+    $('#dhoni').animate({left:'20px',width:'500px'},2500)
+    $('.ball').animate({left: '120px',width:'20px'},1500,loop);
+    $('#dhoni').animate({left:'8px',width:'350px'},1500)
+  
+  }
+  loop();
+  // $(".animation").mouseout(function(){
+  //    $(this).animate({ height:'178px',width:'178px', left : '0px' })});
+  });
+  
+    </script>
 </head>
 <body>
   <nav class="navMenu">
@@ -29,6 +54,13 @@
       <p>The India men's national cricket team, also known as Team India or the Men in Blue, represents India in men's international cricket. It is governed by the Board of Control for Cricket in India (BCCI), and is a Full Member of the International Cricket Council (ICC) with Test,
          One Day International (ODI) and Twenty20 International (T20I) status.Cricket was introduced to the Indian subcontinent by British sailors in the 18th century, and the first cricket club was established in 1792. India's men's national cricket team played its first international match on 25 June 1932 in a Lord's Test, becoming the sixth team to be granted Test cricket status. India had to wait until 1952, almost twenty years, for its first Test victory. In its first fifty years of international cricket, success was limited, with only 35 wins in 196 Tests.The team, however, gained strength in the 1970s with the emergence of players like Sunil Gavaskar, Gundappa Viswanath, Kapil Dev, and the Indian spin quartet.</p>
 
+         <div class="jqanimate" style="position: relative;">
+
+          <img src="../images/dhoni.png" style="position: relative;" width="350px" id="dhoni"  alt="">
+          <img src="../images/ball.png" style="position: absolute; left: 120px; bottom: 56px;" class="ball" width="20px" alt="">
+        <!-- <button class="animation">animate</button>  -->
+        </div>
+
          <h3>ICC Achivements</h3>
          
          <br>
@@ -48,9 +80,8 @@
           </div>
         </figure>
   <br><br>
-
+        
   
-      
 </body>
 <div class="footer-basic">
 <footer>
