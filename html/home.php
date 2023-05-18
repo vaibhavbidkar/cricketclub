@@ -7,23 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/home.css">
-    <script src="/js/slideshow.js"defer></script>
+    <link rel="stylesheet" href="\cricket club\cricketclub\css\home.css">
+    <script src="\cricket club\cricketclub\js\slideshow.js" defer></script>
     <title>home</title>
 
 </head>
 
 <body >
-    <nav class="navMenu">
-        <img  src="/images/logo.png" class="navbar-brand" style="height: 100px;" alt="" srcset="">
-          <div class="container">
-            <a  href="Home.html">Home</a>
-            <a  href="teaminfo.html">Team Info</a>
-          <a  href="players.html">Players Info</a>
-          <a  href="merch.html">merchandise</a>
-          <a  href="profile.html">Profile</a>
+    <nav >
+        <img  src="\cricket club\cricketclub\images\logo.png"  >
+          <div >
+          <a  href="home.php">Home</a>
+          <a  href="teaminfo.html">Team Info</a>
+          <a  href="players.php">Players Info</a>
+          <a  href="merch.php">merchandise</a>
+          <a  href="profile.php">Profile</a>
           </div>
-       
         </nav>
 
        
@@ -31,19 +30,19 @@
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="/images/home.jpg" style="width:100%">
+    <img src="\cricket club\cricketclub\images\home.jpg" style="width:100%">
     <div class="text">World Cup 2011</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="/images/carousal1.webp" style="width:100%">
+    <img src="\cricket club\cricketclub\images\carousal1.webp" style="width:100%">
     <div class="text">Modern Team INDIA</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="/images/carousal2.jpg" style="width:100%">
+    <img src="\cricket club\cricketclub\images\carousal2.jpg" style="width:100%">
     <div class="text">BCCI</div>
   </div>
 
@@ -58,7 +57,32 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="about-card">
         <div class="about-section">

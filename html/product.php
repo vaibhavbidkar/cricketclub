@@ -23,16 +23,46 @@
       </div>
    
     </nav>
-    <br><br>
-    <div class="card">
-        <img src="/images/pic4.jpg"  alt="" class="prodimg">
-        <div class="card-body">
-            <h5 class="card-title">₹ 1,999.00</h5>
-            <p class="card-text">India T20 - One Blue Jersey - Fan Edition - Men</p>
-            <p>Lorem ipsum dolor sit amet, magna aliqua. Ut enim ad minibori. ghvhjDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+    <?php
+      
+      
+      session_start();
+$server_name="localhost";
+$username="root";
+$password="";
+$database_name="cricketclub";
+
+$conn=mysqli_connect($server_name,$username,$password,$database_name);
+//now check the connection
+if(!$conn)
+{
+	die("Connection Failed:" . mysqli_connect_error());
+
+}
+
+   $id = $_GET['product_id'];
+   $query = "SELECT * FROM merchandise WHERE ID = $id";
+   $data = mysqli_query($conn,$query);
+   $total= mysqli_num_rows($data);
+   $result = mysqli_fetch_assoc($data);
+
+
+   echo "<div class=\"card\">
+        <img src=\"/cricket club/cricketclub/img/{$result['PRODUCT_IMAGE']}\"  class=\"prodimg\">
+        <div class=\"card-body\">
+            <h5 class=\"card-title\">₹ {$result['PRICE']}</h5>
+            <p class=\"card-text\">{$result['PRODUCT_NAME']}</p>
+            <p>{$result['DESCRIPTION']}</p>
           </div>
-    </div>
-<br><br><br>
+    </div>" 
+
+    ?>
+
+
+
 </body>
 <br><br>
 <div class="footer-basic">

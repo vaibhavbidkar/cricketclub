@@ -21,7 +21,7 @@
         <a  href="teaminfo.html">Team Info</a>
       <a  href="players.html">Players Info</a>
       <a  href="merch.html">merchandise</a>
-      <a  href="profile.html">Profile</a>
+      <a  href="profile.php">Profile</a>
       </div>
    
     </nav>
@@ -70,6 +70,11 @@
       <li class="list-inline-item"><a href="#">Terms</a></li>
       <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
   </ul>
+
+
+  <?php
+  
+  session_start();?>
   <p class="copyright">Srujana and vaibhav © 2023</p>
 </footer>
 </div>     

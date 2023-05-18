@@ -4,37 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/cricketclub/css/profile.css">
     <title>profile</title>
 </head>
 <body>
     <nav class="navMenu">
         <img src="/images/logo.png" class="navbar-brand" style="height: 100px;" alt="" srcset="">
           <div class="container">
-            <a  href="Home.html">Home</a>
-            <a  href="teaminfo.html">Team Info</a>
-          <a  href="players.html">Players Info</a>
-          <a  href="merch.html">merchandise</a>
-          <a  href="profile.html">Profile</a>
+            <a  href="home.php">Home</a>
+            <a  href="teaminfo.php">Team Info</a>
+          <a  href="players.php">Players Info</a>
+          <a  href="merch.php">merchandise</a>
+          <a  href="profile.php">Profile</a>
           </div>
        
         </nav>
         
-        <br><h1 class="heading">Profile</h1>
-        <div class="box">
-          <ul class="list">
-            
-                <h2>Name : </h2>
-                <h3>Designation : </h3>
-                <h3>Teamname : </p>
-                  <p>Email : </p>
-                  <p>Phone no : </p>
-                  <p>Date of birth : </p>
-                  <p>Gender : </p>
       
-              
-                </ul>
-        </div>
+        <?php
+        
+        session_start();
+         $conn=mysqli_connect("localhost","root","","cricketclub");
+
+         $user_id=$_SESSION['ID'];
+         
+
+          $query = "SELECT * FROM users WHERE ID = $user_id";
+          $data = mysqli_query($conn,$query);
+          $total= mysqli_num_rows($data);
+          $result = mysqli_fetch_assoc($data);
+
+
+           echo "<div class=\"box\">
+           <ul class=\"list\">
+             
+                 <h2>Name : {$result['USER_NAME']}</h2>
+                 <h3>Teamname : {$result['TEAM_NAME']}</p>
+                   <p>Email : {$result['EMAIL']}</p>
+                   <p>Phone no : {$result['PHONE_NUMBER']}</p>
+                   <p>Date of birth : {$result['DATE_OF_BIRTH']}</p>
+                   <p>Gender : {$result['GENDER']}</p>
+       
+               
+                 </ul>
+         </div>";
+
+
+
+
+        
+        
+        
+        
+        
+        ?>
+
+
+
+
+
+        <br><h1 class="heading">Profile</h1>
+        
         <br><br>
         <div class="footer-basic">
           <footer>
