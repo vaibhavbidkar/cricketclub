@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="\cricket club\cricketclub\css\merch.css">
+    
+    <link rel="stylesheet" href="\cricket club\cricketclub\css\Merch.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,17 +13,18 @@
 
 
 
-  <nav class="navMenu">
-    <img src="/images/logo.png" class="mynavbar-brand" style="height: 100px;" alt="" srcset="">
-      <div class="mycontainer">
-        <a  href="Home.html">Home</a>
-        <a  href="teaminfo.html">Team Info</a>
-      <a  href="players.html">Players Info</a>
-      <a  href="merch.html">merchandise</a>
-      <a  href="profile.html">Profile</a>
-      </div>
-   
-    </nav>
+<nav >
+        
+        <div class="nav_div">
+        <img class="nav_image" src="\cricket club\cricketclub\images\logo.png">
+        <a class="nav_link" href="home.php">Home</a>
+        <a class="nav_link" href="teaminfo.php">Team Info</a>
+        <a class="nav_link" href="players.php">Players Info</a>
+        <a class="nav_link" href="merch.php">merchandise</a>
+        <a class="nav_link" href="profile.php">Profile</a>
+        </div>
+      </nav>
+
 
          <h2  class="heading" style="color: goldenrod;">Merchandise</h2>
 

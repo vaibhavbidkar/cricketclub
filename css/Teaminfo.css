@@ -1,0 +1,144 @@
+nav {
+    background-color: #1a2238; /* Dark blue background color */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a2238;
+    z-index: 999;
+  }
+  
+  .nav_div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_image {
+    height: 70px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  
+  .nav_link {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .nav_link:hover {
+    color: #ffd700; /* Hover text color */
+  }
+  
+  .team_info {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .team_info h2 {
+    text-align: center;
+    color: #ffd700;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .team_info .teamlogo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .team_info p {
+    text-align: center;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #000000, #1a2238, #3498db);
+    padding-top: 60px;
+  }
+
+  .team_achievements {
+    text-align: center;
+  }
+  
+  .team_achievements h3 {
+    font-family: "Roboto", sans-serif;
+    color: #ffd700;
+  }
+  
+  .team_achievements figure {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .team_achievements .cups {
+    text-align: center;
+  }
+  
+  .team_achievements .cups img {
+    max-width: 100px;
+  }
+  
+  .team_achievements .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+
+  }
+
+
+  .footer-basic {
+    background-color: #1a2238;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .footer-basic footer ul.list-inline {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    margin-left : 20px ;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-basic footer ul.list-inline li.list-inline-item {
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  
+  .footer-basic footer ul.list-inline li.list-inline-item a {
+    color: #fff;
+    
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-basic footer ul.list-inline li.list-inline-item a:hover {
+    color: #ffc107;
+  }
+  
+  .footer-basic footer p {
+    font-size: 17px;
+    color:#C0C0C0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  .footer-basic footer p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-basic footer p a:hover {
+    text-decoration: underline;
+  }
+  

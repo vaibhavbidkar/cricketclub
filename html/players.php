@@ -4,37 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/cricketclub/css/players.css" type="text/css">
+    <link rel="stylesheet" href="\cricket club\cricketclub\css\Players.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-`<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<script src="\cricket club\cricketclub\js\search.js" defer></script>
-    <title>Document</title>
-</head>
+
+  <script src="\cricket club\cricketclub\js\search.js" defer></script>
+    <title>Players</title>
+  </head>
 
 
 
 <body>
 
-    <nav class="navMenu">
-        <img src="/cricketclub/images/logo.png" class="navbar-brand" style="height: 100px;" alt="" srcset="">
-          <div class="container">
-            <a  href="Home.html">Home</a>
-            <a  href="teaminfo.html">Team Info</a>
-          <a  href="players.html">Players Info</a>
-          <a  href="merch.html">merchandise</a>
-          <a  href="profile.html">Profile</a>
-          </div>
-       
-        </nav>
+      
 
 
-            <div>
-                <input class="input-search" id="searchInput" type="text" placeholder="Search">
+      <nav >        
+        <div class="nav_div">
+        <img class="nav_image" src="\cricket club\cricketclub\images\logo.png">
+        <a class="nav_link" href="home.php">Home</a>
+        <a class="nav_link" href="teaminfo.php">Team Info</a>
+        <a class="nav_link" href="players.php">Players Info</a>
+        <a class="nav_link" href="merch.php">merchandise</a>
+        <a class="nav_link" href="profile.php">Profile</a>
+        </div>
+      </nav>
+
+            <div class="div-search">
+                <input class="input-search" id="searchInput" type="text" placeholder="Search Player">
             </div>
 
-      <h2 style="color:goldenrod; text-align: center;">Meet The Squad</h2>
+      <h2 style="color:#ffd700;
+    font-family: Arial, sans-serif; text-align: center;">Meet The Squad</h2>
 
 <?php
 
@@ -108,18 +108,21 @@ if(!$conn)
 
     </ul>
 
-    <div style ="text-align : center "><button style="background :#011f4b" ><a style= "color:goldenrod "href="\cricket club\cricketclub\html\addplayerform.php" target=”_blank” >add player</a></button> </div>
+    <div class="button-container">
+  <button class="add-player-btn">
+    <a href="\cricket club\cricketclub\html\addplayerform.php" target="_blank">Add Player</a>
+  </button>
+</div>
     
     <div class="footer-basic">
-        <footer>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="home.html">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">Srujana and vaibhav © 2023</p>
-          </footer>
-      </div> 
+          <footer>
+              <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#">Instagram</a></li>
+                  <li class="list-inline-item"><a href="#">Facebook</a></li>
+                  <li class="list-inline-item"><a href="#">Youtube</a></li>
+              </ul>
+              <p class="copyright">Srujana and vaibhav © 2023</p>
+            </footer>
+        </div>
 </body>
 </html>
